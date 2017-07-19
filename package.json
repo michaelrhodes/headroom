@@ -6,7 +6,13 @@
   "dependencies": {
     "on-scroll": "~1.0.0"
   },
+  "devDependencies": {
+    "browserify": "~14.4.0",
+    "gh-pages": "~1.0.0"
+  },
   "scripts": {
+    "example": "browserify index.js -s headroom > example/headroom.js",
+    "deploy": "npm run example && gh-pages -d example",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
