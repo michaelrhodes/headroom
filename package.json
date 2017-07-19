@@ -1,0 +1,27 @@
+{
+  "name": "headroom",
+  "version": "1.0.0",
+  "description": "a tiny header-hiding module",
+  "main": "index.js",
+  "dependencies": {
+    "on-scroll": "~1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/headroom"
+  },
+  "keywords": [
+    "headroom",
+    "tiny",
+    "mobile-friendly"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/headroom/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/headroom"
+}
