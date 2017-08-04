@@ -15,5 +15,6 @@ function headroom (el, view) {
     if (y > oy && hy < eo) hy += min((y - oy) / t, eo - hy)
     if (y < oy && hy > 0) hy -= min((oy - y) / t, hy)
     el.style.transform = 'translate3d(0, -' + hy + 'px, 0)'
+    el.style.opacity = 1 - hy / eo
   })
 }
